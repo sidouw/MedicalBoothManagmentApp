@@ -1,0 +1,28 @@
+.patientscontent{
+    width: 100%;
+    height: calc(99vh - var( --margin-top));
+    padding: 5px 5px 0px 5px;
+}
+
+
+
+.loginPagecontent{
+    width: 100%;
+    height: calc(100vh - var( --margin-top));
+    display:grid;
+    justify-content : center;
+    align-content : center;
+    box-shadow: 1px 1px 0px 23px var(--background-color);
+    position: relative;
+    background-color: var(--light-color);
+}
+
+
+.loginPagecontent:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 96.6vh solid var(--white-color);
+    border-left:99.9vw solid transparent;
+    width: 0;
+} 

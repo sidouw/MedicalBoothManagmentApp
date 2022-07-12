@@ -1,0 +1,36 @@
+.header{
+    position: fixed;
+    padding: 0;
+    width: 100vw;
+    top: 0;
+    height:var(--margin-top);
+    background: var(--light-color);
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+.header-items{
+    height: 100%;
+    background: var(--light-color);
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    -webkit-app-region: no-drag;
+}
+
+.header-items:hover{
+    cursor: pointer;
+    background: var(--red-color);
+}
+
+#maximaze:hover{
+    background-color:var(--orange-color) ;
+}
+#minimaze:hover{
+    background-color:var(--orange-color) ;
+}

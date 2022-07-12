@@ -1,0 +1,21 @@
+.addpatientform{
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.formdatadiv{
+    padding: 10px;
+    width: 100%;
+    height: 89%;
+}
+
+.submitdiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: auto;
+}

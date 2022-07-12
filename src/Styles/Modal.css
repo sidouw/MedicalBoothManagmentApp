@@ -1,0 +1,58 @@
+.Modal {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    max-width: 800px;
+    max-height: 700px;
+    min-height: 550px;
+    min-width: 700px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.ConsModal {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    max-width: 800px;
+    max-height: 700px;
+    min-height: 550px;
+    min-width: 700px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+.ConsModal::-webkit-scrollbar {
+    width: 0.4rem;
+}
+    
+.ConsModal::-webkit-scrollbar-track {
+   background: none;
+}
+    
+.ConsModal::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+    background: var(--strong-color);
+}
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000003d;
+    z-index: 99;
+  }
+
