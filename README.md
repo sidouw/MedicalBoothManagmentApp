@@ -6,6 +6,13 @@ made with React and Electon , Mui5
 
 
 
+## Tech Stack
+
+**FrontEnd:** React, Redux,react-router, Mui5
+
+**BackEnd:** Electron,nedb
+
+
 ## Screenshots
 
 ### Login Page
@@ -35,11 +42,3 @@ Display the consultation information
 ### Settings Page
 Here the admin can add users , add procedures done in the booth  
 ![App Screenshot](https://i.imgur.com/5yCcq4T.jpg)
-
-
-## Tech Stack
-
-**FrontEnd:** React, Redux,react-router, Mui5
-
-**BackEnd:** Electron,nedb
-
